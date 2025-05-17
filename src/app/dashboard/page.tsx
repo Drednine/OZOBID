@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState, useEffect } from 'react';
 import { getCurrentUser } from '@/lib/supabase';
 import BudgetSettingsForm from '@/components/BudgetSettingsForm';
